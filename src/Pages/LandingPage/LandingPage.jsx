@@ -1,5 +1,6 @@
 import React from "react";
 import NavBar from "../../Components/MyNavBar/MyNavBar";
+import Footer from "../../Components/MyFooter/MyFooter";
 import Style from "./LandingPage.module.css";
 
 function LandingPage(props) {
@@ -7,6 +8,7 @@ function LandingPage(props) {
     <>
       <div className={Style.landingWrapper}>
         <NavBar />
+        <Footer />
       </div>
     </>
   );
