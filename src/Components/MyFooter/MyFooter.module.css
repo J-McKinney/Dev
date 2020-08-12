@@ -1,0 +1,38 @@
+.slider {
+  width: 100%;
+  padding-top: 1%;
+  /* padding-bottom: 5%; */
+  justify-content: center;
+  /*Slider Footer*/
+  text-align: center;
+  position: sticky;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  z-index: -1;
+  background-color: #ffffff;
+  margin-top: -2%;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  padding-top: 10px;
+}
+
+h5 {
+  font-weight: bold;
+  font-style: italic;
+  color: #282c34;
+}
+
+a {
+  color: #282c34;
+  position: relative;
+}
+
+.CurvedDivBottom {
+  margin-top: -10%;
+}
