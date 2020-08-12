@@ -69,37 +69,26 @@ class MyNavBar extends Component {
       transition: "0.4s",
     };
     const changeBar1 = {
-      width: "35px",
-      height: "5px",
-      backgroundColor: "#333",
-      margin: "4px 0",
-      transition: "0.4s",
       transform: "rotate(-45deg) translate(-8px, 6px)",
     };
     const changeBar2 = {
-      width: "35px",
-      height: "5px",
-      backgroundColor: "#333",
-      margin: "4px 0",
-      transition: "0.4s",
       opacity: "0",
     };
     const changeBar3 = {
-      width: "35px",
-      height: "5px",
-      backgroundColor: "#333",
-      margin: "4px 0",
-      transition: "0.4s",
       transform: "rotate(45deg) translate(-7px, -6px)",
     };
     return (
       <>
+        {/* WRAPPER */}
         <div
           className={NavStyle.navBarWrapper}
           style={this.state.show ? active : hidden}
         >
           <div className={NavStyle.navbar}>
             <div className={NavStyle.buttonWrapper}>
+              {/* WRAPPER */}
+
+              {/* BUTTON */}
               <Button
                 className={NavStyle.menuButton}
                 aria-controls="example-collapse-text"
@@ -121,20 +110,27 @@ class MyNavBar extends Component {
                   ></div>
                 </div>
               </Button>
+              {/* BUTTON */}
+
+              {/* COLLAPSE CONTENT */}
               <Collapse in={this.state.open}>
                 <div
                   id="example-collapse-text"
                   className={NavStyle.collapsingContent}
                 >
-                  <ul>
+                  <ul className={NavStyle.ul}>
                     <li>Hello</li>
                     <li>World</li>
                   </ul>
                 </div>
               </Collapse>
+              {/* COLLAPSE CONTENT */}
+
+              {/* WRAPPER */}
             </div>
           </div>
         </div>
+        {/* WRAPPER */}
       </>
     );
   }

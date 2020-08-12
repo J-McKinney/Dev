@@ -16,3 +16,8 @@
   margin: 4px 0;
   transition: 0.4s;
 }
+
+.ul {
+  list-style: none;
+  background-color: #61dafb;
+}
