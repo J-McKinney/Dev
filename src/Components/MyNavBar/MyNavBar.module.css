@@ -1,9 +1,31 @@
 .navbar {
   height: 50px;
   width: 100%;
+  float: right;
 }
 
 .buttonWrapper {
+  width: 100%;
+}
+
+a {
+  color: #333;
+}
+
+.name {
+  text-align: start;
+  margin: 10px 0 0 10px;
+}
+.projects,
+.contact {
+  text-align: end;
+  margin: 10px 0 0 0;
+}
+
+.menuButton {
+  border: none !important;
+  background-color: #61dafb !important;
+  box-shadow: none !important;
   float: right;
 }
 
@@ -15,6 +37,20 @@
   background-color: #333;
   margin: 4px 0;
   transition: 0.4s;
+}
+
+.contentDiv {
+  width: 100%;
+  height: auto;
+  background-color: #61dafb;
+  border-radius: 0 0 50px 50px;
+}
+
+h3,
+.contentRow,
+.contentHeader {
+  text-align: center;
+  justify-content: center;
 }
 
 .ul {
