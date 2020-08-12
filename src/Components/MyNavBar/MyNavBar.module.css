@@ -1,7 +1,6 @@
 .navbar {
   height: 50px;
   width: 100%;
-  float: right;
 }
 
 .buttonWrapper {
@@ -50,7 +49,7 @@ a {
 h3,
 .contentRow,
 .contentHeader {
-  text-align: center;
+  /* text-align: center; */
   justify-content: center;
 }
 
@@ -60,5 +59,6 @@ h3,
 }
 
 .li {
-    margin: 12.5px 0 12.5px 0; 
+  text-align: center;
+  margin: 12.5px 45px 12.5px 0;
 }
