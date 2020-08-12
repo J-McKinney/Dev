@@ -91,7 +91,7 @@ class MyNavBar extends Component {
             <div className={NavStyle.buttonWrapper}>
               {/* WRAPPER */}
               <Row>
-                <Col className={NavStyle.name}>
+                <Col id={NavStyle.name} className="col-md-9">
                   <a href="/" className={NavStyle.a}>
                     Jesse McKinney
                   </a>
@@ -163,6 +163,16 @@ class MyNavBar extends Component {
                                 Thanos Snap Effect
                               </a>
                             </li>
+                            <li className={NavStyle.li}>
+                              <a href="/" className={NavStyle.a}>
+                                SMB3 Card Game
+                              </a>
+                            </li>
+                            <li className={NavStyle.li}>
+                              <a href="/" className={NavStyle.a}>
+                                J-Bot
+                              </a>
+                            </li>
                           </ul>
                         </Col>
                         <Col className={NavStyle.contentCol}>
@@ -182,6 +192,11 @@ class MyNavBar extends Component {
                                 Curved Container
                               </a>
                             </li>
+                            <li className={NavStyle.li}>
+                              <a href="/" className={NavStyle.a}>
+                                Perspective Font
+                              </a>
+                            </li>
                           </ul>
                         </Col>
                         <Col className={NavStyle.contentCol}>
@@ -196,18 +211,14 @@ class MyNavBar extends Component {
                                 SimilTune
                               </a>
                             </li>
-                          </ul>
-                        </Col>
-                        <Col className={NavStyle.contentCol}>
-                          <ul className={NavStyle.ul}>
                             <li className={NavStyle.li}>
                               <a href="/" className={NavStyle.a}>
-                                Reflective 3D Ball
+                                Neumorphism
                               </a>
                             </li>
                             <li className={NavStyle.li}>
                               <a href="/" className={NavStyle.a}>
-                                Perspective Font
+                                Reflective 3D Ball
                               </a>
                             </li>
                           </ul>
