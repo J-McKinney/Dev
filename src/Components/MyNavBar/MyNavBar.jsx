@@ -90,6 +90,8 @@ class MyNavBar extends Component {
           <div className={NavStyle.navbar}>
             <div className={NavStyle.buttonWrapper}>
               {/* WRAPPER */}
+
+              {/* NAVBAR CONTENT */}
               <Row>
                 <Col id={NavStyle.name} className="col-md-9">
                   <a href="/" className={NavStyle.a}>
@@ -107,7 +109,7 @@ class MyNavBar extends Component {
                   </a>
                 </Col>
                 <Col>
-                  {/* BUTTON */}
+                  {/* NAVBAR BUTTON */}
                   <Button
                     className={NavStyle.menuButton}
                     aria-controls="example-collapse-text"
@@ -129,9 +131,10 @@ class MyNavBar extends Component {
                       ></div>
                     </div>
                   </Button>
-                  {/* BUTTON */}
+                  {/* NAVBAR BUTTON */}
                 </Col>
               </Row>
+              {/* NAVBAR CONTENT */}
 
               {/* COLLAPSE CONTENT */}
               <Collapse in={this.state.open}>
