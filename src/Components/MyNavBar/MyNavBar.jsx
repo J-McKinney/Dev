@@ -5,6 +5,8 @@ class MyNavBar extends Component {
   state = {
     show: true,
     scrollPos: 0,
+    open: false,
+    changeNavBar: false,
   };
 
   componentDidMount() {
@@ -19,6 +21,18 @@ class MyNavBar extends Component {
       scrollPos: document.body.getBoundingClientRect().top,
       show: document.body.getBoundingClientRect().top > this.state.scrollPos,
     });
+  };
+
+  toggleCollapse = (e) => {
+    e.preventDefault();
+    this.setState({ changeNavBar: !this.state.changeNavBar });
+    if (this.state.open === false) {
+      this.setState({ open: true });
+    } else if (this.state.open === true) {
+      this.setState({ open: false });
+    } else {
+      this.setState({ open: false });
+    }
   };
 
   render() {
