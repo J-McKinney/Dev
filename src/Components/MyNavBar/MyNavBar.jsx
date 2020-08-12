@@ -22,9 +22,33 @@ class MyNavBar extends Component {
   };
 
   render() {
+    const active = {
+      zIndex: "1000",
+      backgroundColor: "#61dafb",
+      position: "fixed",
+      height: "50px",
+      width: "100%",
+      visibility: "visible",
+      transition: "all 200ms ease-in",
+    };
+    const hidden = {
+      zIndex: "1000",
+      backgroundColor: "#61dafb",
+      position: "fixed",
+      height: "50px",
+      width: "100%",
+      visibility: "hidden",
+      transition: "all 200ms ease-out",
+      transform: "translate(0, -100%)",
+    };
     return (
       <>
-        <div></div>
+        <div
+          className={NavStyle.navBarWrapper}
+          style={this.state.show ? active : hidden}
+        >
+          <div className={NavStyle.navbar}></div>
+        </div>
       </>
     );
   }
