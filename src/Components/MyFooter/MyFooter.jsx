@@ -25,9 +25,9 @@ class MyFooter extends Component {
                   <h5 className={FooterStyle.h5}>
                     <a
                       className={FooterStyle.a}
-                      href="https://mail.google.com/mail/?view=cm&fs=1&to=JesseMcKinney513@gmail.com&su=ContactingYouOnPortfolioEmail"
+                      href="https://mail.google.com/mail/?view=cm&fs=1&to=JesseMcKinney513&#64gmail.com&su=ContactingYouOnPortfolioEmail"
                     >
-                      Gmail
+                      <code>@</code>Gmail
                     </a>
                   </h5>
                 </li>
