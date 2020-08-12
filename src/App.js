@@ -1,13 +1,13 @@
 import React from "react";
 import logo from "./logo.svg";
-// import MyNavBar from "./Components/MyNavBar/MyNavBar";
+import MyNavBar from "./Components/MyNavBar/MyNavBar";
 import MyFooter from "./Components/MyFooter/MyFooter";
 import "./App.css";
 
 function App() {
   return (
     <div>
-      {/*<MyNavBar />*/}
+      <MyNavBar />
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
