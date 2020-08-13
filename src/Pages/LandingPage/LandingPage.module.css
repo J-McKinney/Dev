@@ -24,6 +24,7 @@
   background-color: #282c3400;
   margin: 150px 0 0 0;
   color: white;
+  border-radius: 0 50px 50px 0;
 }
 
 #name {
@@ -36,12 +37,11 @@
   background-color: #282c34b0;
 }
 
-.h2Name {
+.h1Name {
   z-index: 102;
   position: absolute;
-  top: 200px;
-  left: 300px;
-  /* margin: 100px 0 0 100px; */
+  top: 150px;
+  left: 535px;
 }
 
 .atlanta {
@@ -51,4 +51,18 @@
   height: 450px;
   width: auto;
   z-index: 102;
+  border-radius: 50px;
+}
+
+.introP {
+  z-index: 102;
+  position: absolute;
+  top: 300px;
+  left: 70px;
+  right: 400px;
+  text-indent: 25px;
+}
+
+.letter {
+  font-size: x-large;
 }
