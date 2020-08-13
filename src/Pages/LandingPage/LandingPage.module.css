@@ -66,3 +66,19 @@
 .letter {
   font-size: x-large;
 }
+
+.projectWrapper {
+  text-align: center;
+  background-color: #282c34;
+  z-index: 1;
+  position: relative;
+  height: 1200px;
+  border-width: 5px;
+  border-style: solid none none none;
+  border-color: #cecece;
+}
+
+.svg {
+  z-index: 1;
+  position: relative;
+}

@@ -5,6 +5,12 @@
   z-index: 1000;
 }
 
+#wrapper {
+  border-width: 5px;
+  border-style: solid none none none;
+  border-color: #cecece;
+}
+
 .swiper-container {
   width: 100%;
   height: 31vw;
