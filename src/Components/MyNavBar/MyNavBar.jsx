@@ -30,6 +30,7 @@ class MyNavBar extends Component {
       scrollPos: document.body.getBoundingClientRect().top,
       show: document.body.getBoundingClientRect().top > this.state.scrollPos,
       open: false,
+      changeNavBar: false,
     });
   };
 
@@ -47,7 +48,7 @@ class MyNavBar extends Component {
 
   render() {
     const active = {
-      zIndex: "1000",
+      zIndex: "1001 !important",
       backgroundColor: "#5e6f819a",
       color: "#fff",
       position: "fixed",
@@ -57,7 +58,7 @@ class MyNavBar extends Component {
       transition: "all 200ms ease-in",
     };
     const hidden = {
-      zIndex: "1000",
+      zIndex: "1001 !important",
       backgroundColor: "#5e6f819a",
       color: "#fff",
       position: "fixed",
@@ -97,12 +98,20 @@ class MyNavBar extends Component {
               {/* NAVBAR CONTENT */}
               <Row>
                 <Col id={NavStyle.name} className="col-md-9">
-                  <a href="/" className={NavStyle.a} style={{ color: "#fff" }}>
+                  <a
+                    href="#top-of-page"
+                    className={NavStyle.a}
+                    style={{ color: "#fff" }}
+                  >
                     Jesse McKinney
                   </a>
                 </Col>
                 <Col className={NavStyle.projects}>
-                  <a href="/" className={NavStyle.a} style={{ color: "#fff" }}>
+                  <a
+                    href="#project-section"
+                    className={NavStyle.a}
+                    style={{ color: "#fff" }}
+                  >
                     Projects
                   </a>
                 </Col>
@@ -160,7 +169,7 @@ class MyNavBar extends Component {
                           <ul className={NavStyle.ul}>
                             <li className={NavStyle.li}>
                               <a
-                                href="/"
+                                href="https://j-mckinney.github.io/InfinityStars/"
                                 className={NavStyle.a}
                                 style={{ color: "#fff" }}
                               >
@@ -169,7 +178,7 @@ class MyNavBar extends Component {
                             </li>
                             <li className={NavStyle.li}>
                               <a
-                                href="/"
+                                href="https://j-mckinney.github.io/InfinityBox/"
                                 className={NavStyle.a}
                                 style={{ color: "#fff" }}
                               >
@@ -200,7 +209,7 @@ class MyNavBar extends Component {
                           <ul className={NavStyle.ul}>
                             <li className={NavStyle.li}>
                               <a
-                                href="/"
+                                href="https://j-mckinney.github.io/ConfettiEffect/"
                                 className={NavStyle.a}
                                 style={{ color: "#fff" }}
                               >
@@ -209,7 +218,7 @@ class MyNavBar extends Component {
                             </li>
                             <li className={NavStyle.li}>
                               <a
-                                href="/"
+                                href="https://j-mckinney.github.io/CrackedFont/"
                                 className={NavStyle.a}
                                 style={{ color: "#fff" }}
                               >
@@ -249,7 +258,7 @@ class MyNavBar extends Component {
                           <ul className={NavStyle.ul}>
                             <li className={NavStyle.li}>
                               <a
-                                href="/"
+                                href="https://j-mckinney.github.io/Realistic-Water-Effect/"
                                 className={NavStyle.a}
                                 style={{ color: "#fff" }}
                               >
