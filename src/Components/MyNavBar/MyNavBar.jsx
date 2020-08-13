@@ -104,7 +104,7 @@ class MyNavBar extends Component {
                   </a>
                 </Col>
                 <Col className={NavStyle.contact}>
-                  <a href="/" className={NavStyle.a}>
+                  <a href="#contact-section" className={NavStyle.a}>
                     Contact
                   </a>
                 </Col>

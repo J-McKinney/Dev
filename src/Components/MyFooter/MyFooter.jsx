@@ -8,7 +8,7 @@ class MyFooter extends Component {
   render() {
     return (
       <>
-        <Container className={FooterStyle.slider}>
+        <Container className={FooterStyle.slider} id="contact-section">
           <Row className={FooterStyle.footerName}>
             <Col>
               <h3>Contact Information:</h3>
