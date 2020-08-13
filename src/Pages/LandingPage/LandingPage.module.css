@@ -1,5 +1,6 @@
 .landingWrapper {
   text-align: center;
+  background-color: #282c34;
   /* Footer Slider */
   z-index: 1;
   position: relative;
