@@ -1,9 +1,9 @@
 import React, { Component } from "react";
-import Confetti from "../../images/ConfettiEffectPic.PNG";
-import Cracked from "../../images/CrackedFontPic.PNG";
-import Stars from "../../images/InfiniteStarsPic.PNG";
-import Box from "../../images/InfinityBoxPic.PNG";
-import Water from "../../images/RealWaterPic.PNG";
+import Confetti from "../../assets/ConfettiEffectPic.PNG";
+import Cracked from "../../assets/CrackedFontPic.PNG";
+import Stars from "../../assets/InfiniteStarsPic.PNG";
+import Box from "../../assets/InfinityBoxPic.PNG";
+import Water from "../../assets/RealWaterPic.PNG";
 import Swiper from "swiper";
 ////////////CSS////////////
 //swiper css must come first
