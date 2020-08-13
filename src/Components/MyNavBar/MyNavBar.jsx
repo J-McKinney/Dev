@@ -47,7 +47,8 @@ class MyNavBar extends Component {
   render() {
     const active = {
       zIndex: "1000",
-      backgroundColor: "#61dafb",
+      backgroundColor: "#5e6f819a",
+      color: "#fff",
       position: "fixed",
       height: "50px",
       width: "100%",
@@ -56,7 +57,8 @@ class MyNavBar extends Component {
     };
     const hidden = {
       zIndex: "1000",
-      backgroundColor: "#61dafb",
+      backgroundColor: "#5e6f819a",
+      color: "#fff",
       position: "fixed",
       height: "50px",
       width: "100%",
@@ -67,7 +69,7 @@ class MyNavBar extends Component {
     const bar = {
       width: "35px",
       height: "5px",
-      backgroundColor: "#333",
+      backgroundColor: "#fff",
       margin: "4px 0",
       transition: "0.4s",
     };
@@ -94,17 +96,21 @@ class MyNavBar extends Component {
               {/* NAVBAR CONTENT */}
               <Row>
                 <Col id={NavStyle.name} className="col-md-9">
-                  <a href="/" className={NavStyle.a}>
+                  <a href="/" className={NavStyle.a} style={{ color: "#fff" }}>
                     Jesse McKinney
                   </a>
                 </Col>
                 <Col className={NavStyle.projects}>
-                  <a href="/" className={NavStyle.a}>
+                  <a href="/" className={NavStyle.a} style={{ color: "#fff" }}>
                     Projects
                   </a>
                 </Col>
                 <Col className={NavStyle.contact}>
-                  <a href="#contact-section" className={NavStyle.a}>
+                  <a
+                    href="#contact-section"
+                    className={NavStyle.a}
+                    style={{ color: "#fff" }}
+                  >
                     Contact
                   </a>
                 </Col>
@@ -152,27 +158,47 @@ class MyNavBar extends Component {
                         <Col className={NavStyle.contentCol}>
                           <ul className={NavStyle.ul}>
                             <li className={NavStyle.li}>
-                              <a href="/" className={NavStyle.a}>
+                              <a
+                                href="/"
+                                className={NavStyle.a}
+                                style={{ color: "#fff" }}
+                              >
                                 Infinity Stars
                               </a>
                             </li>
                             <li className={NavStyle.li}>
-                              <a href="/" className={NavStyle.a}>
+                              <a
+                                href="/"
+                                className={NavStyle.a}
+                                style={{ color: "#fff" }}
+                              >
                                 Infinity Box
                               </a>
                             </li>
                             <li className={NavStyle.li}>
-                              <a href="/" className={NavStyle.a}>
+                              <a
+                                href="/"
+                                className={NavStyle.a}
+                                style={{ color: "#fff" }}
+                              >
                                 Thanos Snap Effect
                               </a>
                             </li>
                             <li className={NavStyle.li}>
-                              <a href="/" className={NavStyle.a}>
+                              <a
+                                href="/"
+                                className={NavStyle.a}
+                                style={{ color: "#fff" }}
+                              >
                                 SMB3 Card Game
                               </a>
                             </li>
                             <li className={NavStyle.li}>
-                              <a href="/" className={NavStyle.a}>
+                              <a
+                                href="/"
+                                className={NavStyle.a}
+                                style={{ color: "#fff" }}
+                              >
                                 J-Bot
                               </a>
                             </li>
@@ -181,22 +207,38 @@ class MyNavBar extends Component {
                         <Col className={NavStyle.contentCol}>
                           <ul className={NavStyle.ul}>
                             <li className={NavStyle.li}>
-                              <a href="/" className={NavStyle.a}>
+                              <a
+                                href="/"
+                                className={NavStyle.a}
+                                style={{ color: "#fff" }}
+                              >
                                 Confetti Effect
                               </a>
                             </li>
                             <li className={NavStyle.li}>
-                              <a href="/" className={NavStyle.a}>
+                              <a
+                                href="/"
+                                className={NavStyle.a}
+                                style={{ color: "#fff" }}
+                              >
                                 Cracked Font
                               </a>
                             </li>
                             <li className={NavStyle.li}>
-                              <a href="/" className={NavStyle.a}>
+                              <a
+                                href="/"
+                                className={NavStyle.a}
+                                style={{ color: "#fff" }}
+                              >
                                 Curved Container
                               </a>
                             </li>
                             <li className={NavStyle.li}>
-                              <a href="/" className={NavStyle.a}>
+                              <a
+                                href="/"
+                                className={NavStyle.a}
+                                style={{ color: "#fff" }}
+                              >
                                 Perspective Font
                               </a>
                             </li>
@@ -205,22 +247,38 @@ class MyNavBar extends Component {
                         <Col className={NavStyle.contentCol}>
                           <ul className={NavStyle.ul}>
                             <li className={NavStyle.li}>
-                              <a href="/" className={NavStyle.a}>
+                              <a
+                                href="/"
+                                className={NavStyle.a}
+                                style={{ color: "#fff" }}
+                              >
                                 Real Water Effect
                               </a>
                             </li>
                             <li className={NavStyle.li}>
-                              <a href="/" className={NavStyle.a}>
+                              <a
+                                href="/"
+                                className={NavStyle.a}
+                                style={{ color: "#fff" }}
+                              >
                                 SimilTune
                               </a>
                             </li>
                             <li className={NavStyle.li}>
-                              <a href="/" className={NavStyle.a}>
+                              <a
+                                href="/"
+                                className={NavStyle.a}
+                                style={{ color: "#fff" }}
+                              >
                                 Neumorphism
                               </a>
                             </li>
                             <li className={NavStyle.li}>
-                              <a href="/" className={NavStyle.a}>
+                              <a
+                                href="/"
+                                className={NavStyle.a}
+                                style={{ color: "#fff" }}
+                              >
                                 Reflective 3D Ball
                               </a>
                             </li>

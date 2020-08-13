@@ -1,12 +1,19 @@
 .landingWrapper {
   text-align: center;
-  background-color: #282c34;
+  background-color: #ffffff;
   /* Footer Slider */
   z-index: 1;
   position: relative;
+  /* Parallax Effect */
+  background-image: url("../../images/abandoned.jpg"); /* must specify an image or color */
+  height: 1000px; /* must specify a height */
+  background-attachment: fixed; /* must be fixed */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .container {
-  height: 1500px;
+  height: 1000px;
   width: auto;
 }

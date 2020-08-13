@@ -1,4 +1,5 @@
 .navbar {
+  margin-top: 7px;
   height: 50px;
   width: 100%;
 }
@@ -8,23 +9,22 @@
 }
 
 a {
-  color: #333;
   font-weight: 700;
 }
 
 #name {
   text-align: start;
-  margin: 10px 0 0 10px;
+  margin: 7px 0 0 10px;
 }
 .projects,
 .contact {
   text-align: end;
-  margin: 10px 0 0 0;
+  margin: 7px 0 0 0;
 }
 
 .menuButton {
   border: none !important;
-  background-color: #61dafb !important;
+  background-color: #ffffff00 !important;
   box-shadow: none !important;
   float: right;
 }
@@ -34,7 +34,7 @@ a {
 .bar3 {
   width: 35px;
   height: 5px;
-  background-color: #333;
+  background-color: #fff;
   margin: 4px 0;
   transition: 0.4s;
 }
@@ -42,7 +42,7 @@ a {
 .contentDiv {
   width: 100%;
   height: auto;
-  background-color: #61dafb;
+  background-color: #5e6f819a;
   border-radius: 0 0 50px 50px;
 }
 
@@ -55,7 +55,7 @@ h3,
 
 .ul {
   list-style: none;
-  background-color: #61dafb;
+  background-color: #ffffff00;
 }
 
 .li {
