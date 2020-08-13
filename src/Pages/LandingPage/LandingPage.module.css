@@ -1,6 +1,6 @@
 .landingWrapper {
   text-align: center;
-  background-color: #ffffff;
+  background-color: #282c34;
   /* Footer Slider */
   z-index: 1;
   position: relative;
@@ -14,6 +14,6 @@
 }
 
 .container {
-  height: 1000px;
+  height: 1200px;
   width: auto;
 }

@@ -1,5 +1,9 @@
 import React, { Component } from "react";
-
+import Confetti from "../../images/ConfettiEffectPic.PNG";
+import Cracked from "../../images/CrackedFontPic.PNG";
+import Stars from "../../images/InfiniteStarsPic.PNG";
+import Box from "../../images/InfinityBoxPic.PNG";
+import Water from "../../images/RealWaterPic.PNG";
 import Swiper from "swiper";
 ////////////CSS////////////
 //swiper css must come first
@@ -46,25 +50,22 @@ class MyCarousel extends Component {
     return (
       <>
         <div className={Style.wrapper}>
-          <div className="swiper-container">
+          <div id={Style.wrapper} className="swiper-container">
             <div className="swiper-wrapper">
               <div className="swiper-slide">
-                <img className="d-block w-100" src={""} alt="First slide" />
+                <img className="d-block w-100" src={Confetti} alt="First slide" />
               </div>
               <div className="swiper-slide">
-                <img className="d-block w-100" src={""} alt="Second slide" />
+                <img className="d-block w-100" src={Cracked} alt="Second slide" />
               </div>
               <div className="swiper-slide">
-                <img className="d-block w-100" src={""} alt="Third slide" />
+                <img className="d-block w-100" src={Stars} alt="Third slide" />
               </div>
               <div className="swiper-slide">
-                <img className="d-block w-100" src={""} alt="Fourth slide" />
+                <img className="d-block w-100" src={Box} alt="Fourth slide" />
               </div>
               <div className="swiper-slide">
-                <img className="d-block w-100" src={""} alt="Fifth slide" />
-              </div>
-              <div className="swiper-slide">
-                <img className="d-block w-100" src={""} alt="Sixth slide" />
+                <img className="d-block w-100" src={Water} alt="Fifth slide" />
               </div>
             </div>
             <div className="swiper-pagination" />

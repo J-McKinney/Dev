@@ -29,6 +29,7 @@ class MyNavBar extends Component {
     this.setState({
       scrollPos: document.body.getBoundingClientRect().top,
       show: document.body.getBoundingClientRect().top > this.state.scrollPos,
+      open: false,
     });
   };
 
@@ -193,15 +194,6 @@ class MyNavBar extends Component {
                                 SMB3 Card Game
                               </a>
                             </li>
-                            <li className={NavStyle.li}>
-                              <a
-                                href="/"
-                                className={NavStyle.a}
-                                style={{ color: "#fff" }}
-                              >
-                                J-Bot
-                              </a>
-                            </li>
                           </ul>
                         </Col>
                         <Col className={NavStyle.contentCol}>
@@ -240,6 +232,15 @@ class MyNavBar extends Component {
                                 style={{ color: "#fff" }}
                               >
                                 Perspective Font
+                              </a>
+                            </li>
+                            <li className={NavStyle.li}>
+                              <a
+                                href="/"
+                                className={NavStyle.a}
+                                style={{ color: "#fff" }}
+                              >
+                                J-Bot
                               </a>
                             </li>
                           </ul>
