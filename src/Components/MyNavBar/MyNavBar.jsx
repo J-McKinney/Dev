@@ -236,7 +236,7 @@ class MyNavBar extends Component {
                             </li>
                             <li className={NavStyle.li}>
                               <a
-                                href="/"
+                                href="https://j-mckinney.github.io/PerspectiveFont/"
                                 className={NavStyle.a}
                                 style={{ color: "#fff" }}
                               >

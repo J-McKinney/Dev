@@ -53,19 +53,76 @@ class MyCarousel extends Component {
           <div id={Style.wrapper} className="swiper-container">
             <div className="swiper-wrapper">
               <div className="swiper-slide">
-                <img className="d-block w-100" src={Confetti} alt="First slide" />
+                <a
+                  href="https://j-mckinney.github.io/ConfettiEffect/"
+                  className={Style.pSlide}
+                  style={{ color: "#fff" }}
+                >
+                  <p className={Style.pSlide}>
+                    Click Here To See Confetti Effect
+                  </p>
+                </a>
+                <img
+                  className="d-block w-100"
+                  src={Confetti}
+                  alt="Confetti Effect"
+                />
               </div>
               <div className="swiper-slide">
-                <img className="d-block w-100" src={Cracked} alt="Second slide" />
+                <a
+                  href="https://j-mckinney.github.io/CrackedFont/"
+                  className={Style.pSlide}
+                  style={{ color: "#fff" }}
+                >
+                  <p className={Style.pSlide}>Click Here To See Cracked Font</p>
+                </a>
+                <img
+                  className="d-block w-100"
+                  src={Cracked}
+                  alt="Cracked Font"
+                />
               </div>
               <div className="swiper-slide">
-                <img className="d-block w-100" src={Stars} alt="Third slide" />
+                <a
+                  href="https://j-mckinney.github.io/InfinityStars/"
+                  className={Style.pSlide}
+                  style={{ color: "#fff" }}
+                >
+                  <p className={Style.pSlide}>
+                    Click Here To See Infinite Stars
+                  </p>
+                </a>
+                <img
+                  className="d-block w-100"
+                  src={Stars}
+                  alt="Infinite Stars"
+                />
               </div>
               <div className="swiper-slide">
-                <img className="d-block w-100" src={Box} alt="Fourth slide" />
+                <a
+                  href="https://j-mckinney.github.io/InfinityBox/"
+                  className={Style.pSlide}
+                  style={{ color: "#fff" }}
+                >
+                  <p className={Style.pSlide}>Click Here To See Infinity Box</p>
+                </a>
+                <img className="d-block w-100" src={Box} alt="Infinity Box" />
               </div>
               <div className="swiper-slide">
-                <img className="d-block w-100" src={Water} alt="Fifth slide" />
+                <a
+                  href="https://j-mckinney.github.io/Realistic-Water-Effect/"
+                  className={Style.pSlide}
+                  style={{ color: "#fff" }}
+                >
+                  <p className={Style.pSlide}>
+                    Click Here To See Realistic Water Effect
+                  </p>
+                </a>
+                <img
+                  className="d-block w-100"
+                  src={Water}
+                  alt="Realistic Water Effect"
+                />
               </div>
             </div>
             <div className="swiper-pagination" />

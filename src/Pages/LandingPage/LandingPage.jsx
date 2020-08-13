@@ -36,6 +36,13 @@ function LandingPage(props) {
         </Container>
       </div>
       <MyCarousel />
+
+      <div className={Style.projectWrapper}>
+        <Container fluid className={Style.projectContainer}>
+          <Row className={Style.projectRow}></Row>
+        </Container>
+      </div>
+
       <Footer />
     </>
   );
