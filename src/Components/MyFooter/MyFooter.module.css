@@ -53,4 +53,9 @@ a {
 
 .bottomName {
   font-family: "Yellowtail", cursive;
+  text-align: center;
+  justify-content: center;
+  /* position: absolute; */
+  /* bottom: 0; */
+  /* right: 0; */
 }

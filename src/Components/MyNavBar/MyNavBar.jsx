@@ -161,7 +161,7 @@ class MyNavBar extends Component {
                   <div className={NavStyle.contentDiv}>
                     <Container className={NavStyle.contentContainer}>
                       <Row className={NavStyle.contentHeader}>
-                        <h3 className={NavStyle.h3}>Project Links</h3>
+                        <h3 className={NavStyle.h3}>Favorite Projects</h3>
                       </Row>
                       <hr />
                       <Row className={NavStyle.contentRow}>
@@ -171,7 +171,12 @@ class MyNavBar extends Component {
                               <a
                                 href="https://j-mckinney.github.io/InfinityStars/"
                                 className={NavStyle.a}
-                                style={{ color: "#fff" }}
+                                style={{
+                                  color: "#fff",
+                                  // backgroundColor: "black",
+                                  borderRadius: "50px",
+                                  padding: "5px",
+                                }}
                               >
                                 Infinity Stars
                               </a>
@@ -180,7 +185,12 @@ class MyNavBar extends Component {
                               <a
                                 href="https://j-mckinney.github.io/InfinityBox/"
                                 className={NavStyle.a}
-                                style={{ color: "#fff" }}
+                                style={{
+                                  color: "#fff",
+                                  // backgroundColor: "black",
+                                  borderRadius: "50px",
+                                  padding: "5px",
+                                }}
                               >
                                 Infinity Box
                               </a>
@@ -189,7 +199,12 @@ class MyNavBar extends Component {
                               <a
                                 href="/"
                                 className={NavStyle.a}
-                                style={{ color: "#fff" }}
+                                style={{
+                                  color: "#fff",
+                                  // backgroundColor: "black",
+                                  borderRadius: "50px",
+                                  padding: "5px",
+                                }}
                               >
                                 Thanos Snap Effect
                               </a>
@@ -198,7 +213,12 @@ class MyNavBar extends Component {
                               <a
                                 href="/"
                                 className={NavStyle.a}
-                                style={{ color: "#fff" }}
+                                style={{
+                                  color: "#fff",
+                                  // backgroundColor: "black",
+                                  borderRadius: "50px",
+                                  padding: "5px",
+                                }}
                               >
                                 SMB3 Card Game
                               </a>
@@ -211,7 +231,12 @@ class MyNavBar extends Component {
                               <a
                                 href="https://j-mckinney.github.io/ConfettiEffect/"
                                 className={NavStyle.a}
-                                style={{ color: "#fff" }}
+                                style={{
+                                  color: "#fff",
+                                  // backgroundColor: "black",
+                                  borderRadius: "50px",
+                                  padding: "5px",
+                                }}
                               >
                                 Confetti Effect
                               </a>
@@ -220,7 +245,12 @@ class MyNavBar extends Component {
                               <a
                                 href="https://j-mckinney.github.io/CrackedFont/"
                                 className={NavStyle.a}
-                                style={{ color: "#fff" }}
+                                style={{
+                                  color: "#fff",
+                                  // backgroundColor: "black",
+                                  borderRadius: "50px",
+                                  padding: "5px",
+                                }}
                               >
                                 Cracked Font
                               </a>
@@ -229,7 +259,12 @@ class MyNavBar extends Component {
                               <a
                                 href="/"
                                 className={NavStyle.a}
-                                style={{ color: "#fff" }}
+                                style={{
+                                  color: "#fff",
+                                  // backgroundColor: "black",
+                                  borderRadius: "50px",
+                                  padding: "5px",
+                                }}
                               >
                                 Curved Container
                               </a>
@@ -238,7 +273,12 @@ class MyNavBar extends Component {
                               <a
                                 href="https://j-mckinney.github.io/PerspectiveFont/"
                                 className={NavStyle.a}
-                                style={{ color: "#fff" }}
+                                style={{
+                                  color: "#fff",
+                                  // backgroundColor: "black",
+                                  borderRadius: "50px",
+                                  padding: "5px",
+                                }}
                               >
                                 Perspective Font
                               </a>
@@ -247,7 +287,12 @@ class MyNavBar extends Component {
                               <a
                                 href="/"
                                 className={NavStyle.a}
-                                style={{ color: "#fff" }}
+                                style={{
+                                  color: "#fff",
+                                  // backgroundColor: "black",
+                                  borderRadius: "50px",
+                                  padding: "5px",
+                                }}
                               >
                                 J-Bot
                               </a>
@@ -260,7 +305,12 @@ class MyNavBar extends Component {
                               <a
                                 href="https://j-mckinney.github.io/Realistic-Water-Effect/"
                                 className={NavStyle.a}
-                                style={{ color: "#fff" }}
+                                style={{
+                                  color: "#fff",
+                                  // backgroundColor: "black",
+                                  borderRadius: "50px",
+                                  padding: "5px",
+                                }}
                               >
                                 Real Water Effect
                               </a>
@@ -269,7 +319,12 @@ class MyNavBar extends Component {
                               <a
                                 href="/"
                                 className={NavStyle.a}
-                                style={{ color: "#fff" }}
+                                style={{
+                                  color: "#fff",
+                                  // backgroundColor: "black",
+                                  borderRadius: "50px",
+                                  padding: "5px",
+                                }}
                               >
                                 SimilTune
                               </a>
@@ -278,7 +333,12 @@ class MyNavBar extends Component {
                               <a
                                 href="/"
                                 className={NavStyle.a}
-                                style={{ color: "#fff" }}
+                                style={{
+                                  color: "#fff",
+                                  // backgroundColor: "black",
+                                  borderRadius: "50px",
+                                  padding: "5px",
+                                }}
                               >
                                 Neumorphism
                               </a>
@@ -287,7 +347,12 @@ class MyNavBar extends Component {
                               <a
                                 href="/"
                                 className={NavStyle.a}
-                                style={{ color: "#fff" }}
+                                style={{
+                                  color: "#fff",
+                                  // backgroundColor: "black",
+                                  borderRadius: "50px",
+                                  padding: "5px",
+                                }}
                               >
                                 Reflective 3D Ball
                               </a>
