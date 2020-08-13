@@ -6,7 +6,7 @@
   position: relative;
   /* Parallax Effect */
   background-image: url("../../images/abandoned.jpg"); /* must specify an image or color */
-  height: 1000px; /* must specify a height */
+  height: 1200px; /* must specify a height */
   background-attachment: fixed; /* must be fixed */
   background-position: center;
   background-repeat: no-repeat;
@@ -14,6 +14,41 @@
 }
 
 .container {
-  height: 1200px;
+  height: 1400px;
   width: auto;
+}
+
+#name,
+#atl {
+  padding: 200px 0 200px 0;
+  background-color: #282c3400;
+  margin: 150px 0 0 0;
+  color: white;
+}
+
+#name {
+  z-index: 100;
+  font-family: "Noto Sans", sans-serif;
+  /* font-family: "Yellowtail", cursive; */
+  /* font-family: "EB Garamond", serif; */
+  /* font-family: "Kaushan Script", cursive; */
+  padding: 300px;
+  background-color: #282c34b0;
+}
+
+.h2Name {
+  z-index: 102;
+  position: absolute;
+  top: 200px;
+  left: 300px;
+  /* margin: 100px 0 0 100px; */
+}
+
+.atlanta {
+  position: absolute;
+  top: 300px;
+  left: -360px;
+  height: 450px;
+  width: auto;
+  z-index: 102;
 }

@@ -50,3 +50,7 @@ a {
   text-align: center;
   justify-content: center;
 }
+
+.bottomName {
+  font-family: "Yellowtail", cursive;
+}
