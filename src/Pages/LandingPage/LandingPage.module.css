@@ -1,0 +1,11 @@
+.landingWrapper {
+  text-align: center;
+  /* Footer Slider */
+  z-index: 1;
+  position: relative;
+}
+
+.container {
+  height: 1500px;
+  width: auto;
+}

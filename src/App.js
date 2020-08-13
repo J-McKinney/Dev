@@ -1,15 +1,14 @@
 import React from "react";
 // import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import logo from "./logo.svg";
-import MyNavBar from "./Components/MyNavBar/MyNavBar";
-import MyFooter from "./Components/MyFooter/MyFooter";
+// import logo from "./logo.svg";
+import LandingPage from "./Pages/LandingPage/LandingPage";
 import "./App.css";
 
 function App() {
   return (
     <div>
-      <MyNavBar />
-      <div className="App">
+      <LandingPage />
+      {/*<div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>
@@ -24,24 +23,7 @@ function App() {
             Learn React
           </a>
         </header>
-      </div>
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-        <MyFooter />
-      </div>
+      </div>*/}
     </div>
   );
 }
